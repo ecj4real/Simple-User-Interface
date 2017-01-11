@@ -1,0 +1,28 @@
+body{	background-color:#000;}
+#container{	width:700px; margin:0% auto;}
+#header,#footer, #overall{	display:block; height:30px;}
+
+#header{ }
+#header .hleft{	width:400px; display:table-cell; height:40px;}
+#header .hright{	width:300px; display:table-cell; height:40px;}
+.hright ul{	margin:0; padding:0; width:300px;}
+.hright ul li{	list-style:none; height:40px; display:table-cell;}
+.hright ul li a{	text-align:center; line-height:30px; padding:0 15.5px; display:block; text-decoration:none; background-color:gold;}
+.hright ul li a:hover{	text-decoration:none; background-color:#333; color:gold;}
+.hright ul li a.active{	text-decoration:none; background-color:#333; color:gold;}
+.hright ul li a:active{	text-decoration:none; background-color:#333; color:gold;}
+.hright ul li a:focus{	 outline:none; color:cyan;}
+
+
+
+#footer{ width:680px; margin:0 auto; text-align:center; color:#dfdfdf; padding:10px; background:url(img/slider-item-bg.jpg) no-repeat 30% 30%;}
+.left{	width:250px;display:table-cell; background:url(img/welbak.png) no-repeat;}
+.left h2,.left h1{	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color:brown; text-align:center;}
+h2.welcome{	width:200px; text-align:center; margin:0; padding-left:40px; position:relative; top:-25px;}
+h2.welcome img{ margin:0; padding:0; position:relative; top:0px; left:-40px;}
+.right{	width:450px; background:url(img/dark.png) repeat-y 0 0; padding:10px; display:table-cell;}
+.floatleft{	float:left; margin: 3px 8px 3px 0px; border:2px #fff solid; border-radius:10px;}
+.floatright{	float:right; margin: 3px 0px 3px 8px; border:2px #fff solid; border-radius:10px;}
+
+h1,h2{	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color:gold;}
+p {font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color:#fff; font-size:11pt;}
